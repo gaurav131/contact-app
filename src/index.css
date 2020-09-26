@@ -132,6 +132,7 @@ body, .app {
   padding: 20px;
   background: white;
   display: flex;
+  margin: 5px;
 }
 
 @media (min-width: 600px) {
@@ -143,6 +144,7 @@ body, .app {
 }
 
 .contact-avatar {
+  display: inline-flex;
   width: 60px;
   height: 60px;
   margin-right: 20px;
@@ -150,6 +152,7 @@ body, .app {
   background-size: cover;
   border-radius: 50%;
   flex-shrink: 0;
+  vertical-align: middle;
 }
 
 .contact-details {
@@ -159,9 +162,10 @@ body, .app {
   flex: 1;
   overflow: hidden;
 
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
+  vertical-align: middle;
 }
 .contact-details p {
   margin: 0;
